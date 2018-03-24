@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosis-semibold';
+  src: url("../fonts/dosis-semibold.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosis-medium';
+  src: url("../fonts/dosis-medium.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosis-regular';
+  src: url("../fonts/dosis-regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-bold.ttf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-medium';
+  src: url("../fonts/roboto-medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-light';
+  src: url("../fonts/roboto-light.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'roboto';
+  font-weight: normal; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

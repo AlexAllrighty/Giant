@@ -1,0 +1,94 @@
+.reviews {
+  @include paddings;
+  .container {
+    position: relative;
+  }
+  @media (max-width: $small) {
+    margin-bottom: 120px;
+  }
+  .toggle-slide {
+    top: 55%;
+    @media (max-width: 1244px) {
+      top: 105%;
+    }
+    @media (max-width: $extraLarge) {
+      top: 55%;
+    }
+    @media (max-width: $small) {
+      top: 105%;
+
+    }
+  }
+}
+
+.reviews__heading {
+  text-align: center;
+}
+
+.reviews__title {
+  @include titleFont;
+}
+
+.reviews__text {
+  @include textFont;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.reviews__item {
+  padding: 40px;
+  padding-right: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  color: $smallTextFontColor;
+}
+
+.reviews-item__text {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+}
+
+.reviews-item__user {
+  display: flex;
+  align-items: center;
+}
+
+.reviews-item__username {
+  margin-left: 20px;
+}
+
+.username {
+  display: block;
+  color: black;
+  font-size: 18px;
+  font-family: 'dosis-regular';
+}
+
+.review-slide:first-child .reviews__item {
+  background-color: #f7fafc;
+}
+
+.review-slide:nth-child(2) .reviews__item {
+  background-color: white;
+  box-shadow: 10px 10px 10px 0px #ececec, -10px 0px 10px 0px #ececec;
+}
+
+.review-slide:last-child .reviews__item {
+  background-color: #f7fafc;
+}
+
+@media (max-width: $extraLarge) {
+  .review-slide:first-child {
+    display: none;
+  }
+
+  .review-slide:nth-child(2) {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .review-slide:last-child{
+    display: none;
+  }
+}
+

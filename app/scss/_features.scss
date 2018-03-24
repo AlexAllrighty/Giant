@@ -1,0 +1,73 @@
+.features {
+  @include paddings;
+  padding-bottom: 0;
+  .container {
+    padding-bottom: 60px;
+    border-bottom:  6px solid #eeeeee;
+  }
+}
+
+.features__item {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  border: 1px solid #eeeeee;
+}
+
+.features__description {
+  padding: 0;
+}
+
+.features-item__title {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-family: 'dosis-medium';
+}
+
+.features-item__text {
+  padding: 0;
+  margin: 0;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  color: $smallTextFontColor;
+}
+
+.features__icon {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  &--1 {
+    background-image: url("../img/features-item-1.png");
+  }
+  &--2 {
+    background-image: url("../img/features-item-2.png");
+  }
+  &--3 {
+    background-image: url("../img/features-item-3.png");
+  }
+  &--4 {
+    background-image: url("../img/features-item-4.png");
+  }
+  &--5 {
+    background-image: url("../img/features-item-5.png");
+  }
+  &--6 {
+    background-image: url("../img/features-item-6.png");
+  }
+}
+
+
+@media (max-width: $small) {
+  .features__item {
+    margin-bottom: 40px;
+  }
+}
+
+
+

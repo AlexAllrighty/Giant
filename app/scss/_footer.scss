@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #222222;
+}
+
+.copyright {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Myriad Pro";
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 165px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

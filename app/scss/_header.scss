@@ -1,0 +1,144 @@
+.main-header {
+  background: $backgroundGradient;
+  color: $headerMainColor;
+  font-family: 'roboto-medium';
+}
+
+.navbar-brand {
+  display: flex;
+  align-content: flex-end;
+  margin-top: 18px;
+  font-family: 'dosis';
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.logo__text {
+  vertical-align: bottom;
+}
+
+.navbar-nav {
+  margin-top: 32px;
+}
+
+.nav-item {
+  padding-top: 7px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 7px;
+  a {
+    color: $headerMainColor;
+    font-size: $mainFontSize;
+  }
+  &--active {
+    background-color: $headerMainColor;
+    border-radius: 20px;
+    a {
+      color: black;
+    }
+  }
+}
+
+.navbar-toggler-icon {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  &:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 5px;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+  }
+  &:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -5px;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+  }
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.promo {
+  padding-top: 90px;
+}
+
+.promo__title {
+  font-family: 'dosis-semibold';
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.promo__text {
+  font-family: 'roboto-light';
+  font-size: $mainFontSize;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.promo__list {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.promo-list__item {
+  margin-bottom: 20px;
+  margin-left: 33px;
+}
+
+.promo-list__item:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 15px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/check.png);
+}
+
+.promo__link {
+  display: block;
+  cursor: pointer;
+  color: black !important;
+  font-size: 14px;
+  font-weight: bold;
+  width: 195px;
+  height: 50px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 24px;
+  background-color: #ffffff;
+  border: 5px solid #e2612b;
+}
+
+.promo {
+  padding-top: 80px;
+  padding-bottom: 215px;
+  color: white;
+  background: url(../img/iphones.png) no-repeat 100% 20%, linear-gradient(to right, #fd712c, #fc6c31 8%, #fc6736 16%, #fb6339 24%, #fb5e3e 32%, #fa5943 40%, #f94e4d 48%, #f84952 56%, #f74357 64%, #f73d5d 72%, #f63862 80%, #f53168 88%, #f32276);
+  background-size: 55%, 100%;
+}
+
+@media (max-width: 990px) {
+  .promo {
+    background: linear-gradient(to right, #fd712c, #fc6c31 8%, #fc6736 16%, #fb6339 24%, #fb5e3e 32%, #fa5943 40%, #f94e4d 48%, #f84952 56%, #f74357 64%, #f73d5d 72%, #f63862 80%, #f53168 88%, #f32276);
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .promo__title {
+    font-size: 40px;
+  }
+}
+
+
+

@@ -1,0 +1,69 @@
+.info {
+  @include paddings;
+  min-height: 710px;
+}
+
+.info__background {
+  height: 485px;
+  background-image: url("../img/iphone.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+.info__description {
+  padding-top: 40px;
+}
+
+.info__title {
+  @include titleFont;
+  margin-bottom: 15px;
+}
+
+.info__text {
+  @include textFont;
+  margin-bottom: 80px;
+}
+
+.info__sub-text {
+  @include textFont;
+  margin-bottom: 25px;
+}
+
+.info__list {
+  margin-bottom: 25px;
+}
+
+.info-list__item {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  @include textFont;
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/check-black.png);
+  }
+}
+
+@media (max-width: $large) {
+
+  .info__background {
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    background-size: 100% 100%;
+  }
+
+  .info__title {
+    text-align: center;
+  }
+
+  .info__text {
+    margin-bottom: 0;
+  }
+}

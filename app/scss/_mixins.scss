@@ -1,0 +1,28 @@
+@mixin paddings {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  @media (max-width: $large) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media (max-width: $medium) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media (max-width: $small) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@mixin titleFont {
+  font-family: 'dosis-medium';
+  font-size: 36px;
+}
+
+@mixin textFont {
+  font-size: 14px;
+  color: $smallTextFontColor;
+
+}

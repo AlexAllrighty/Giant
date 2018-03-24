@@ -1,0 +1,28 @@
+.video {
+  height: 400px;
+  background-image: url("../img/video.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.video__button {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  border-radius: 75px;
+  background: url('../img/play-icon.png') no-repeat 50% 50%, linear-gradient(to right, #fd712c, #fc6c31 8%, #fc6736 16%, #fb6339 24%, #fb5e3e 32%, #fa5943 40%, #f94e4d 48%, #f84952 56%, #f74357 64%, #f73d5d 72%, #f63862 80%, #f53168 88%, #f32276);
+}
+
+@media (max-width: $large ) {
+  .video {
+    height: 200px;
+  }
+
+  .video__button {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: url('../img/play-icon.png') no-repeat 50% 50%, linear-gradient(to right, #fd712c, #fc6c31 8%, #fc6736 16%, #fb6339 24%, #fb5e3e 32%, #fa5943 40%, #f94e4d 48%, #f84952 56%, #f74357 64%, #f73d5d 72%, #f63862 80%, #f53168 88%, #f32276);
+  }
+}
