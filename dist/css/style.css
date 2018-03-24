@@ -181,7 +181,8 @@ ul {
 
 .features {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  padding-bottom: 0; }
   @media (max-width: 991px) {
     .features {
       padding-top: 60px;
@@ -192,7 +193,7 @@ ul {
       padding-bottom: 30px; } }
   @media (max-width: 575px) {
     .features {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 30px; } }
   .features .container {
     padding-bottom: 60px;
@@ -263,7 +264,7 @@ ul {
       padding-bottom: 30px; } }
   @media (max-width: 575px) {
     .info {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 30px; } }
 
 .info__background {
@@ -334,7 +335,7 @@ ul {
       padding-bottom: 30px; } }
   @media (max-width: 575px) {
     .screenshots {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 30px; } }
   .screenshots .container {
     position: relative; }
@@ -444,8 +445,10 @@ ul {
       border: 2px solid #777777; }
 
 @media (max-width: 1245px) {
-  .screenshots .container {
-    max-width: 98%; }
+  .screenshots {
+    padding-bottom: 80px; }
+    .screenshots .container {
+      max-width: 98%; }
   .screenshot {
     margin: 0 auto; }
     .screenshot:first-child {
@@ -469,11 +472,11 @@ ul {
 
 @media (max-width: 575px) {
   .toggle-slide--previous {
-    top: 720px;
-    left: 140px; }
+    top: 755px;
+    left: 100px; }
   .toggle-slide--next {
-    top: 720px;
-    right: 140px; } }
+    top: 755px;
+    right: 100px; } }
 
 .order {
   padding-top: 120px;
@@ -488,7 +491,7 @@ ul {
       padding-bottom: 30px; } }
   @media (max-width: 575px) {
     .order {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 30px; } }
 
 .order__heading {
@@ -671,7 +674,7 @@ ul {
       padding-bottom: 30px; } }
   @media (max-width: 575px) {
     .reviews {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 30px; } }
   .reviews .container {
     position: relative; }
@@ -767,7 +770,7 @@ ul {
       padding-bottom: 30px; } }
   @media (max-width: 575px) {
     .download {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 30px; } }
 
 .download__heading {
@@ -824,3 +827,27 @@ ul {
 @media (max-width: 1199px) {
   .download__list-item {
     margin-top: 20px; } }
+
+.footer {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #222222; }
+
+.copyright {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Myriad Pro"; }
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 165px;
+  margin: 0 auto;
+  margin-bottom: 20px; }

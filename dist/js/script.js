@@ -50,15 +50,6 @@
   reviewsNextButton.addEventListener('click', function () {
     setSlider(1, reviews, reviewSlidedBlock);
   });
- /* for (var index = 0; index < images.length; ++index) {
-    images[index].addEventListener('click', function (event) {
-      var images = Array.prototype.slice.call(slidedBlock.querySelectorAll('.slide')),
-        current_image = event.currentTarget,
-        current_index = images.indexOf(current_image),
-        offset = current_index + 1 - Math.round(images.length / 2);
-      setSlider(offset);
-    });
-  }*/
 })();
 
 
